@@ -97,23 +97,7 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 ### Function
 
 
-[T](#t) [F](#f)
-
-
-[identity](#identity) [always](#always)
-
-
-[pipe](#pipe) [compose](#compose)
-
-
-[curry](#curry) [flip](#flip)
-
-
-[addIndex](#addindex)
-
-
-[tap](#tap)
-
+[T](#t) [F](#f) [identity](#identity) [always](#always) [pipe](#pipe) [compose](#compose) [curry](#curry) [flip](#flip) [addIndex](#addindex) [tap](#tap)
 
 
 ### Math
@@ -121,15 +105,13 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 
 [add](#add) [subtract](#subtract) [multiply](#multiply) [divide](#divide) [modulo](#modulo)
 
-
 [inc](#inc) [dec](#dec)
-
 
 
 ### List
 
 
-[length](#length) [indexOf](#indexof) [lastIndexOf](#lastindexof)
+[length](#length) [indexOf](#indexof) [lastIndexOf](#lastindexof) [append](#append) [prepend](#prepend)
 
 
 [sort](#sort) [map](#map) [forEach](#foreach)
@@ -138,16 +120,10 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 [all](#all) [any](#any) [none](#none)
 
 
-[append](#append) [prepend](#prepend)
-
-
 [contains](#contains) [adjust](#adjust)
 
 
-[take](#take) [takeLast](#takelast)
-
-
-[drop](#drop) [dropLast](#droplast)
+[take](#take) [takeLast](#takelast) [drop](#drop) [dropLast](#droplast)
 
 
 [startsWith](#startswith) `[endsWith](#endswith)
@@ -165,9 +141,6 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 [flatten](#flatten) [reverse](#reverse) [join](#join) [concat](#concat) [reduce](#reduce)
 
 
-[pluck](#pluck)
-
-
 [range](#range) [repeat](#repeat) [times](#times)
 
 
@@ -177,44 +150,26 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 [uniq](#uniq) [uniqWith](#uniqwith) [without](#without)
 
 
-[update](#update)
+[update](#update) [pluck](#pluck)
 
 
 
 ### Logic
 
 
-[allPass](#allpass) [anyPass](#anypass)
-
-[both](#both) [either](#either)
-
-[not](#not) [complement](#complement)
-
-[ifElse](#ifelse) [defaultTo](#defaultto)
+[allPass](#allpass) [anyPass](#anypass) [both](#both) [either](#either) [not](#not) [complement](#complement) [ifElse](#ifelse) [defaultTo](#defaultto)
 
 
 ### Object
 
 
-[keys](#keys) [values](#values)
-
-[pick](#pick) [pickAll](#pickall) [omit](#omit) [merge](#merge)
-
-[has](#has) [prop](#prop)
-
-[path](#path) [pathOr](#pathor) [dissoc](#dissoc)
+[keys](#keys) [values](#values) [pick](#pick) [pickAll](#pickall) [omit](#omit) [merge](#merge) [has](#has) [prop](#prop) [path](#path) [pathOr](#pathor) [dissoc](#dissoc)
 
 
 ### Relation
 
 
-[equals](#equals)
-
-
-[propEq](#propeq)
-
-
-[sortBy](#sortby)
+[equals](#equals) [propEq](#propeq) [sortBy](#sortby)
 
 
 ### Type
@@ -226,9 +181,7 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 ### String
 
 
-[split](#split) [trim](#trim) [toUpper](#toupper) [toLower](#tolower) [toString](#tostring)
-
-[test](#test) [match](#match) [replace](#replace)
+[split](#split) [trim](#trim) [toUpper](#toupper) [toLower](#tolower) [toString](#tostring) [test](#test) [match](#match) [replace](#replace)
 
 
 ---
