@@ -93,6 +93,144 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 
 ## API
 
+
+### Function
+
+
+[T](#t) [F](#f)
+
+
+[identity](#identity) [always](#always)
+
+
+[pipe](#pipe) [compose](#compose)
+
+
+[curry](#curry) [flip](#flip)
+
+
+[addIndex](#addindex)
+
+
+[tap](#tap)
+
+
+
+### Math
+
+
+[add](#add) [subtract](#subtract) [multiply](#multiply) [divide](#divide) [modulo](#modulo)
+
+
+[inc](#inc) [dec](#dec)
+
+
+
+### List
+
+
+[length](#length) [indexOf](#indexof) [lastIndexOf](#lastindexof)
+
+
+[sort](#sort) [map](#map) [forEach](#foreach)
+
+
+[all](#all) [any](#any) [none](#none)
+
+
+[append](#append) [prepend](#prepend)
+
+
+[contains](#contains) [adjust](#adjust)
+
+
+[take](#take) [takeLast](#takelast)
+
+
+[drop](#drop) [dropLast](#droplast)
+
+
+[startsWith](#startswith) `[endsWith](#endswith)
+
+
+[filter](#filter) [reject](#reject)
+
+
+[find](#find) [findIndex](#findindex)
+
+
+[head](#head) [tail](#tail) [init](#init) [last](#last)
+
+
+[flatten](#flatten) [reverse](#reverse) [join](#join) [concat](#concat) [reduce](#reduce)
+
+
+[pluck](#pluck)
+
+
+[range](#range) [repeat](#repeat) [times](#times)
+
+
+[splitEvery](#splitevery)
+
+
+[uniq](#uniq) [uniqWith](#uniqwith) [without](#without)
+
+
+[update](#update)
+
+
+
+### Logic
+
+
+[allPass](#allpass) [anyPass](#anypass)
+
+[both](#both) [either](#either)
+
+[not](#not) [complement](#complement)
+
+[ifElse](#ifelse) [defaultTo](#defaultto)
+
+
+### Object
+
+
+[keys](#keys) [values](#values)
+
+[pick](#pick) [pickAll](#pickall) [omit](#omit) [merge](#merge)
+
+[has](#has) [prop](#prop)
+
+[path](#path) [pathOr](#pathor) [dissoc](#dissoc)
+
+
+### Relation
+
+
+[equals](#equals)
+
+
+[propEq](#propeq)
+
+
+[sortBy](#sortby)
+
+
+### Type
+
+
+[is](#is) [isNil](#isnil) [type](#type)
+
+
+### String
+
+
+[split](#split) [trim](#trim) [toUpper](#toupper) [toLower](#tolower) [toString](#tostring)
+
+[test](#test) [match](#match) [replace](#replace)
+
+
 ---
 #### T
 
@@ -1688,308 +1826,6 @@ R.zipObj(['a', 'b', 'c'], [1, 2])
 ```
 import omit from 'rambda/lib/omit'
 ```
-
-## Browse by category
-
-### Function
-
-
-[T](#t)
-
-
-[F](#f)
-
-
-[identity](#identity)
-
-
-[always](#always)
-
-
-[pipe](#pipe)
-
-
-[compose](#compose)
-
-
-[addIndex](#addindex)
-
-
-[curry](#curry)
-
-
-[flip](#flip)
-
-
-[tap](#tap)
-
-
-
-### Math
-
-
-[add](#add)
-
-
-[subtract](#subtract)
-
-
-[multiply](#multiply)
-
-
-[divide](#divide)
-
-
-[modulo](#modulo)
-
-
-[inc](#inc)
-
-
-[dec](#dec)
-
-
-
-### List
-
-
-[length](#length)
-
-
-[indexOf](#indexof)
-
-
-[lastIndexOf](#lastindexof)
-
-
-[map](#map)
-
-
-[adjust](#adjust)
-
-
-[all](#all)
-
-
-[any](#any)
-
-
-[append](#append)
-
-
-[prepend](#prepend)
-
-
-[concat](#concat)
-
-
-[contains](#contains)
-
-
-[take](#take)
-
-
-[takeLast](#takelast)
-
-
-[drop](#drop)
-
-
-[dropLast](#droplast)
-
-
-[startsWith](#startswith)
-
-
-[endsWith](#endswith)
-
-
-[filter](#filter)
-
-
-[reject](#reject)
-
-
-[find](#find)
-
-
-[findIndex](#findindex)
-
-
-[flatten](#flatten)
-
-
-[forEach](#foreach)
-
-
-[head](#head)
-
-
-[tail](#tail)
-
-
-[init](#init)
-
-
-[last](#last)
-
-
-[join](#join)
-
-
-[none](#none)
-
-
-[pluck](#pluck)
-
-
-[range](#range)
-
-
-[reduce](#reduce)
-
-
-[repeat](#repeat)
-
-
-[reverse](#reverse)
-
-
-[sort](#sort)
-
-
-[splitEvery](#splitevery)
-
-
-[times](#times)
-
-
-[uniq](#uniq)
-
-
-[uniqWith](#uniqwith)
-
-
-[update](#update)
-
-
-[without](#without)
-
-
-
-### Logic
-
-
-[allPass](#allpass)
-
-
-[anyPass](#anypass)
-
-
-[both](#both)
-
-
-[either](#either)
-
-
-[not](#not)
-
-
-[complement](#complement)
-
-
-[ifElse](#ifelse)
-
-
-[defaultTo](#defaultto)
-
-
-
-### Object
-
-
-[dissoc](#dissoc)
-
-
-[has](#has)
-
-
-[merge](#merge)
-
-
-[omit](#omit)
-
-
-[path](#path)
-
-
-[pathOr](#pathor)
-
-
-[pick](#pick)
-
-
-[pickAll](#pickall)
-
-
-[prop](#prop)
-
-
-[values](#values)
-
-
-
-### Relation
-
-
-[equals](#equals)
-
-
-[propEq](#propeq)
-
-
-[sortBy](#sortby)
-
-
-
-### Type
-
-
-[is](#is)
-
-
-[isNil](#isnil)
-
-
-[type](#type)
-
-
-
-### String
-
-
-[trim](#trim)
-
-
-[toUpper](#toupper)
-
-
-[toLower](#tolower)
-
-
-[toString](#tostring)
-
-
-[match](#match)
-
-
-[replace](#replace)
-
-
-[split](#split)
-
-
-[test](#test)
 
 ## Additional info
 
