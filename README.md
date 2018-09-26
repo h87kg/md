@@ -94,6 +94,36 @@ https://cdnjs.cloudflare.com/ajax/libs/rambda/1.2.0/webVersion.js
 ## API
 
 ---
+#### T
+
+`R.T() // => true`
+
+---
+#### F
+
+`R.F() // => false`
+
+---
+#### pipe
+
+> pipe(fn1: Function, ... , fnN: Function): any
+
+It performs left-to-right function composition.
+
+```
+const result = R.pipe(
+  R.filter(val => val > 2),
+  R.map(a => a * 2)
+)([1, 2, 3, 4])
+
+// => [6, 8]
+```
+
+[Source](https://github.com/selfrefactor/rambda/tree/master/modules/pipe.js)
+
+<a href="https://rambda.now.sh?const%20result%20%3D%20R.pipe(%0A%20%20R.filter(val%20%3D%3E%20val%20%3E%202)%2C%0A%20%20R.map(a%20%3D%3E%20a%20*%202)%0A)(%5B1%2C%202%2C%203%2C%204%5D)%0A%0A%2F%2F%20%3D%3E%20%5B6%2C%208%5D">Try in REPL</a>
+
+---
 #### add
 
 > add(a: number, b: number): number
@@ -484,11 +514,6 @@ R.equals(
 [Source](https://github.com/selfrefactor/rambda/tree/master/modules/equals.js)
 
 <a href="https://rambda.now.sh?const%20result%20%3D%20R.equals(%0A%20%20%5B1%2C%20%7Ba%3A2%7D%2C%20%5B%7Bb%3A3%7D%5D%5D%2C%0A%20%20%5B1%2C%20%7Ba%3A2%7D%2C%20%5B%7Bb%3A3%7D%5D%5D%0A)%20%2F%2F%20%3D%3E%20true">Try in REPL</a>
-
----
-#### F
-
-`R.F() // => false`
 
 ---
 #### filter
@@ -1106,26 +1131,6 @@ R.pick(['a', 'c'], {a: 1, b: 2}) // => {a: 1}
 <a href="https://rambda.now.sh?const%20result%20%3D%20R.pick(%5B'a'%2C%20'c'%5D%2C%20%7Ba%3A%201%2C%20b%3A%202%7D)%20%2F%2F%20%3D%3E%20%7Ba%3A%201%7D">Try in REPL</a>
 
 ---
-#### pipe
-
-> pipe(fn1: Function, ... , fnN: Function): any
-
-It performs left-to-right function composition.
-
-```
-const result = R.pipe(
-  R.filter(val => val > 2),
-  R.map(a => a * 2)
-)([1, 2, 3, 4])
-
-// => [6, 8]
-```
-
-[Source](https://github.com/selfrefactor/rambda/tree/master/modules/pipe.js)
-
-<a href="https://rambda.now.sh?const%20result%20%3D%20R.pipe(%0A%20%20R.filter(val%20%3D%3E%20val%20%3E%202)%2C%0A%20%20R.map(a%20%3D%3E%20a%20*%202)%0A)(%5B1%2C%202%2C%203%2C%204%5D)%0A%0A%2F%2F%20%3D%3E%20%5B6%2C%208%5D">Try in REPL</a>
-
----
 #### pluck
 
 > pluck(property: string, arr: Object[]): any[]
@@ -1389,11 +1394,6 @@ R.startsWith(
 ```
 R.subtract(3, 1) // => 2
 ```
-
----
-#### T
-
-`R.T() // => true`
 
 ---
 #### tail
